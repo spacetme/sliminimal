@@ -22,11 +22,19 @@ And some default configurations such as:
 
 * Relative assets so you can host your files anywhere. Even in a file system or PhoneGap application!
 * bower_components added into Sprocket's search path by default. If you use Bower, then it just works. If you don't, then this configuration doesn't do anything. How unobtrusive!
+* config.ru that works with Bundler.
 
+
+It has been hand-cherry-picked from my projects.
 
 And now, choose your own CSS and JavaScript framework.
 
 Be it jQuery, Angular, Ember, Polymer, Bootstrap, Bourbon, Bootstrap, Typeplate, Normalize, Modernizr, or write your own from scratch.
 It's your choice! Don't want jQuery? Just expel it from Gemfile!
 
+
+How do I?
+---------
+
+Clone and bundle install and middleman.
 
