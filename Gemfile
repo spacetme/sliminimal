@@ -6,6 +6,7 @@ gem "middleman", "~> 3.3.6"
 
 # Languages
 gem "slim"
+gem "kramdown"
 gem "coffee-script"
 
 # Stuffs (pick em or add em!)
