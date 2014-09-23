@@ -8,11 +8,13 @@ gem "middleman", "~> 3.3.6"
 gem "slim"
 gem "coffee-script"
 
-# Stuffs (pick em!)
+# Stuffs (pick em or add em!)
 gem "jquery-rails", :require => false
 # gem "bootstrap-sass", "~> 3.2.0", :require => false
 # gem "fastclick-rails", :require => false
 # gem "angularjs-rails", :require => false
+# gem "susy"
+# gem "breakpoint"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
