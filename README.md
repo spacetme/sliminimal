@@ -38,3 +38,19 @@ How do I?
 
 Clone and bundle install and middleman.
 
+
+### Quick Website Setup
+
+```bash
+# Installation
+git init website && cd website
+git pull https://github.com/spacetme/sliminimal.git master
+bundle install
+
+# Now, create the desired repo on GitHub
+hub create user/repo
+
+# When ready, push
+git push -u origin master
+```
+
