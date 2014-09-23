@@ -35,6 +35,11 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+# Autoprefixer
+activate :autoprefixer do |config|
+  config.browsers = ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1']
+end
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
@@ -52,6 +57,9 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+# Bower
+sprockets.append_path File.join root, 'bower_components'
 
 # Build-specific configuration
 configure :build do
