@@ -20,6 +20,9 @@ gem "jquery-rails", :require => false
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
+# Deploy to GitHub pages (and other places)
+gem 'middleman-deploy', '~> 0.3.0'
+
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
