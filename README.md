@@ -54,3 +54,40 @@ hub create user/repo
 git push -u origin master
 ```
 
+
+And below is an example of README.md for your project.
+
+
+Project Name
+============
+
+Setup
+-----
+
+```bash
+bundle
+```
+
+Previewing Locally
+------------------
+
+```bash
+middleman
+```
+
+Building Static Pages
+---------------------
+
+```bash
+middleman build
+```
+
+
+Deploying
+---------
+
+```bash
+middleman deploy
+```
+
+
