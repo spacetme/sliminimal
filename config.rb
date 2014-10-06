@@ -45,6 +45,11 @@ configure :development do
   activate :livereload
 end
 
+# Deployment
+activate :deploy do |deploy|
+  deploy.method = :git
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper

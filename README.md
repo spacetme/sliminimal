@@ -16,6 +16,7 @@ And common tools are included such as:
 
 * LiveReload
 * Autoprefixer
+* middleman-deploy
 
 
 And some default configurations such as:
@@ -23,6 +24,7 @@ And some default configurations such as:
 * Relative assets so you can host your files anywhere. Even in a file system or PhoneGap application!
 * bower_components added into Sprocket's search path by default. If you use Bower, then it just works. If you don't, then this configuration doesn't do anything. How unobtrusive!
 * config.ru that works with Bundler.
+* Deploy to GitHub pages
 
 
 It has been hand-cherry-picked from my projects.
