@@ -17,6 +17,9 @@ gem "jquery-rails", :require => false
 # gem "susy"
 # gem "breakpoint"
 
+# Optimize images
+gem "middleman-imageoptim", "~> 0.1.4"
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
@@ -31,3 +34,10 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Autoprefixer
 gem "middleman-autoprefixer"
+
+# Uglifier
+gem "uglifier"
+
+# Faster JS compiles
+gem 'therubyracer'
+gem 'oj'
