@@ -17,14 +17,17 @@ And common tools are included such as:
 * LiveReload
 * Autoprefixer
 * middleman-deploy
+* middleman-imageoptim (disabled by default)
 
 
-And some default configurations such as:
+And some sensible default configurations such as:
 
 * Relative assets so you can host your files anywhere. Even in a file system or PhoneGap application!
 * bower_components added into Sprocket's search path by default. If you use Bower, then it just works. If you don't, then this configuration doesn't do anything. How unobtrusive!
 * config.ru that works with Bundler.
-* Deploy to GitHub pages
+* middleman-deploy preconfigured to deploy to GitHub Pages.
+* Minify CSS when building.
+* Minify JavaScript when building, but not mangling them (in case you use Angular.js).
 
 
 It has been hand-cherry-picked from my projects.
